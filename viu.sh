@@ -1,5 +1,8 @@
 #!/bin/bash
 #note: does not work with remote URLs, only URIs, image *must* be local
+
+#Requires: viu, cmus, playerctl, sed, urlencode
+
 #Yes I should not hard code these like this
 imageViewer="/home/gunqqer/.cargo/bin/viu"
 playerName=cmus
