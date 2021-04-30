@@ -1,7 +1,7 @@
 # musicScripts
 A set of scripts I use for music
 
-#Scripts
+# Scripts
 ## sort.sh
 takes two absolute paths to directories. The first is the input directory, second being output. It will sort music files by $OUTPUT/$artist/$album/ 
 
