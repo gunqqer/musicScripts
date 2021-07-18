@@ -29,7 +29,7 @@ parseAndMove()
 }
 export -f parseAndMove
 
-find "$SOURCE" -type f -iregex '.*\.\(wav\|mp3\|flac\|m4a\)$' | parallel -j 6 --bar -eta parseAndMove {} "$TARGET"
+find "$SOURCE" -type f -iregex '.*\.\(wav\|mp3\|flac\|m4a\)$' | parallel -j 6 --bar --eta parseAndMove {} "$TARGET"
 echo "Done!"
 exit
 
